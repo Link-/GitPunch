@@ -1,0 +1,8 @@
+# Ignore virtual env
+venv/
+
+# Ingore tmp folder content
+tmp/*
+
+# Ignore pycharm files
+.idea/
