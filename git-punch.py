@@ -38,7 +38,7 @@ def write_to_file(data):
 			sys.exit(-1)
 
 # Days and Hours listing
-days = ['Sat', 'Fri', 'Thu', 'Wed', 'Tue', 'Mon', 'Sun']
+days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 hours = ['12am'] + [str(x) for x in xrange(1, 12)] + ['12pm'] + [str(x) for x in xrange(1, 12)]
 
 # Cleanup the git log data
