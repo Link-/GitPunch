@@ -13,11 +13,19 @@ output_file_name = 'tmp/data.json'
 # and retrieves the git log data
 def get_log_data():
 	try:
-		gitcommand = ['git', 'log', '--no-merges', '--author='+author,  '--pretty=format: %aD']
-		p = subprocess.Popen(gitcommand,
-		                     stdin=subprocess.PIPE,
-		                     stdout=subprocess.PIPE,
-		                     stderr=subprocess.PIPE)
+		gitcommand = [
+			'git',
+			'log',
+			'--no-merges',
+			'--author='+author,
+			'--pretty=format: %aD']
+
+		p = subprocess.Popen(
+			gitcommand,
+			stdin=subprocess.PIPE,
+			stdout=subprocess.PIPE,
+			stderr=subprocess.PIPE)
+
 		outdata, errdata = p.communicate()
 	except OSError as e:
 		print('Git not installed?')
