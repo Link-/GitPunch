@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# version: alpha-0.0.2
 
 import argparse
 import subprocess
@@ -59,8 +60,7 @@ def build_stats(raw_data):
 	days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 	log = [(x.split(',')[0], x.split(' ')[4].split(':')[0])
-		   for x in raw_data.splitlines()]
-
+				for x in raw_data.splitlines()]
 	# Generates a list of all the days when a commit happened
 	# and includes the number of commits at a given hour of the day
 	stats = {}
