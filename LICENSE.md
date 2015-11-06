@@ -1,15 +1,3 @@
-# GitPunch
-## Description
-`alpha-0.0.2`
-
-### Installation
-
-TBD
-
-### Demo
-
-[Git-Punch-NB_alpha002.ipynb](http://nbviewer.ipython.org/github/Link-/GitPunch/blob/master/analysis/Git-Punch-NB_alpha002.ipynb)
-
 ### The MIT License
 
 Copyright (c) 2015 Link-
