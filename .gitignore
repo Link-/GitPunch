@@ -6,3 +6,6 @@ tmp/*
 
 # Ignore pycharm files
 .idea/
+
+# Ignore png files
+*.png
