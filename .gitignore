@@ -4,8 +4,45 @@ venv/
 # Ingore tmp folder content
 tmp/*
 
-# Ignore pycharm files
-.idea/
-
 # Ignore png files
 *.png
+
+# Ignore Sublime Workspace/Project files
+_sublime/
+
+# Ignore ipython checkpoints
+.ipynb_checkpoints/
+
+# Ignore vendor/
+vendor/
+
+# Ignore OSX Files
+*.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ipython Checkpoints
+.ipynb_checkpoints
