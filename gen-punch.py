@@ -4,7 +4,9 @@
 # # Git-Punch Notebook
 # ### Brief
 # 
-# Punchcard Diagram (similar to Github's Punchcard) showing all the commits for a git repository done across the days of the week (y-axis) and time of day (x-axis).
+# Punchcard Diagram (similar to Github's Punchcard) 
+# showing all the commits for a git repository done 
+# across the days of the week (y-axis) and time of day (x-axis).
 # 
 # __Version:__
 # 
@@ -17,7 +19,7 @@
 # 
 # 1. Run `git-punch.py` to gather the data from a valid git repository's directory
 # 2. use -o to specify the output file location
-# 3. Click Cell -> Run All
+# 3. run `gen-punch.py` to generate the charts
 
 # In[14]:
 
@@ -27,9 +29,6 @@ import matplotlib.pyplot as plt
 
 # Enable inline plotting
 get_ipython().magic('matplotlib inline')
-
-
-# In[15]:
 
 # Read the raw json file
 data_location = r'../tmp/sef_7stats.json'
@@ -133,4 +132,3 @@ plt.savefig('output.png', bbox_inches='tight')
 
 # Show the plot
 plt.show()
-

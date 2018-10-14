@@ -8,9 +8,7 @@ TBD
 
 ### Demo
 
-[Git-Punch-NB_alpha002.ipynb](http://nbviewer.ipython.org/github/Link-/GitPunch/blob/master/analysis/Git-Punch-NB_alpha002.ipynb)
-
-![image](http://snappyimages.nextwavesrl.netdna-cdn.com/img/42e4539faca7aaf05505756e370c5217.png)
+[Git-Punch-NB_alpha002.ipynb](https://github.com/Link-/GitPunch/blob/master/analysis/Git-Punch-NB_alpha003.ipynb)
 
 ### The MIT License
 
